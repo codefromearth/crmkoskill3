@@ -1,0 +1,56 @@
+.addContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    z-index: 1;
+    width: 300px;
+  }
+  
+  .addContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addContainer label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .addContainer input[type="text"],
+  .addContainer input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .addContainer button.btn {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addContainer button.btn:hover {
+    background-color: #45a049;
+  }
+  
+  .addContainer .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .addContainer .close-btn:hover {
+    color: red;
+  }
+  
